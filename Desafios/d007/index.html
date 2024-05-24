@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#128516;</p>
+    <picture>
+        <source media="(max-width: 710px )" srcset="imagem/paisagem-p.jpeg" type="image/jpeg">
+        <source media="(max-width: 1010px )" srcset="imagem/paisagem-m.jpeg" type="image/jpeg">
+        <img src="imagem/paisagem-g.jpeg" alt="paisagem completa">
+    </picture>
+</body>
+</html>
